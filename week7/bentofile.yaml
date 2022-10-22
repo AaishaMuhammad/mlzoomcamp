@@ -1,0 +1,7 @@
+service: service.py:svc
+include:
+- "*.py"
+python:
+  packages:
+    - sklearn
+    - numpy
